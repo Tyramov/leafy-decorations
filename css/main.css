@@ -7,7 +7,10 @@ html {
   background-color: #588477;
   border-style: solid;
   border-color: #2d5a4d;
-  border-width: thick;
+  border-width: 3px;
+  background-size: 64px;
+  background-image: url("../images/leaf-bg.svg");
+  background-repeat: repeat;
 }
 
 .logo {
@@ -16,29 +19,37 @@ html {
 
 .nav {
   text-align: center;
-  background-image: url("../leafy-decorations-download/")
-  background-repeat: no-repeat;
 }
 
 .nav a {
   text-decoration: none;
   color: #fff;
   border-style: solid;
-  border-radius: .5em;
+  border-radius: 8px;
   border-color: #2d5a4d;
-  border-width: thick;
+  border-width: 3px;
+  background-color: #467366;
 }
 
 .nav a:hover {
-
+  background-image: url("../images/leaf-icon.svg");
+  background-size: 64px;
+  background-repeat: no-repeat;
+  color: #2d5a4d;
+  background-color: #fff;
 }
 
 .banner {
-background-image: url("../leafy-decorations-download/assets/plant.jpg");
+  background-image: url("../images/banner.jpg");
+  background-size: 2500px auto
 }
 
 .banner-content {
-
+  background-image: url("../images/two-leaves.svg");
+  padding-top: 500px;
+  background-repeat: no-repeat;
+  background-size: 128px;
+  background-position: left;
 }
 
 @media only screen and (min-width: 60em) {
