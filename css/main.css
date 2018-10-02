@@ -1,9 +1,13 @@
 html {
   font-family: Lora, serif;
+  color: #fff;
 }
 
 .masthead {
-
+  background-color: #588477;
+  border-style: solid;
+  border-color: #2d5a4d;
+  border-width: thick;
 }
 
 .logo {
@@ -12,10 +16,17 @@ html {
 
 .nav {
   text-align: center;
+  background-image: url("../leafy-decorations-download/")
+  background-repeat: no-repeat;
 }
 
 .nav a {
   text-decoration: none;
+  color: #fff;
+  border-style: solid;
+  border-radius: .5em;
+  border-color: #2d5a4d;
+  border-width: thick;
 }
 
 .nav a:hover {
@@ -23,7 +34,7 @@ html {
 }
 
 .banner {
-
+background-image: url("../leafy-decorations-download/assets/plant.jpg");
 }
 
 .banner-content {
